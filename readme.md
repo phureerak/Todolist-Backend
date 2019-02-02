@@ -1,13 +1,18 @@
-Environment for run program (use no this version or Compatible)
+Environment for run program (use on this version or Compatible)
 -------------
 node v8.9.4 <br />
 mongoDB v4.0.5 <br />
 docker toolbox current (because i have ram 4GB ,can't install docker Desktop) <br />
 docker-compose version 1.20.1 <br />
 
-
 How to run it (command in folder project)
 -------------
+```
+> run MongoDB (C:/data/db)
+$ mongod
+> if create data/db in other path
+$ mongod --dbpath=D:/data/db
+```
 ```
 $ npm install
 > install node module before 
@@ -45,6 +50,7 @@ Schema data
     description: String,
     status: Boolean
 }
+> id เป็น primary key ที่ Mongodb สร้างให้อัตโนมัติ
 ```
 ```
 /GET tasks
