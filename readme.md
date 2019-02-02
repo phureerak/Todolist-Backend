@@ -9,21 +9,27 @@ How to run it (command in folder project)
 -------------
 ```
 > run MongoDB (C:/data/db)
+
 $ mongod
+
 > if create data/db in other path
+
 $ mongod --dbpath=D:/data/db
 ```
 ```
-$ npm install
 > install node module before 
+
+$ npm install
 ```
 ```
-$ npm run start
 > for start project 
+
+$ npm run start
 ```
 ```
-$ npm run test
 > for test api by mocha and chai 
+
+$ npm run test
 ```
 Use docker
 -------------
