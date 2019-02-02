@@ -7,8 +7,8 @@ const port = 3000
 
 //before command docker-compose up , Please change var conectDB to 'mongo'
 //'localhost' just use in local
-
 var conectDB = 'localhost'
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({
     extended: true
